@@ -1,19 +1,15 @@
 {
   "name": "typescript_solid",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "main": "index.js",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
+  "repository": "git@github.com:inocencio5117/typescript_solid.git",
+  "author": "Vinicius Inocencio <vicnicius2009@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.0.0",
-    "ts-loader": "^9.3.0",
+    "ts-loader": "^9.3.1",
     "ts-node": "^10.8.1",
-    "typescript": "^4.5.4",
-    "vite": "^2.9.9"
-  },
-  "dependencies": {}
+    "typescript": "^4.7.4"
+  }
 }
