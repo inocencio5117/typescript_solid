@@ -1,7 +1,7 @@
 type CartItem = { name: string; price: number };
 type OrderStatus = "open" | "closed";
 
-export class ShoppingCartLegacy {
+class ShoppingCartLegacy {
   private readonly _items: CartItem[] = [];
   private _orderStatus: OrderStatus = "open";
 
