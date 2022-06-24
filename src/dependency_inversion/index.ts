@@ -7,7 +7,7 @@ import {
   FiftyPercentDiscount,
   NoDiscount,
   TenPercentDiscount,
-} from "./classes/interfaces/discount";
+} from "./classes/discount";
 
 // const fiftyPercentDiscount = new FiftyPercentDiscount();
 // const tenPercentDiscount = new TenPercentDiscount();
